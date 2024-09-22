@@ -15,6 +15,7 @@ header .logo h1 {
     color: #ff0066;
     font-size: 2rem;
     letter-spacing: 2px;
+    width: 100%;
 }
 
 nav ul {

@@ -1,4 +1,8 @@
 /* Estilos para el catálogo */
+
+header{
+    width: 100%;
+}
 .titulo-catalogo {
     text-align: center;
     padding: 2rem;

@@ -1,0 +1,135 @@
+/* Estilos generales para el cuerpo de la página */
+body {
+    /* Fuente especial de estilo retro/gamer */
+    font-family: 'Press Start 2P', cursive;
+    /* Fondo oscuro para un look gaming */
+    background-color: #333;
+    /* Color del texto en blanco suave */
+    color: #f5f5f5;
+    /* Centrar el contenido de la página */
+    text-align: center;
+}
+
+
+/* Estilos del header y navbar */
+
+
+header .logo h1 {
+    color: #ff0066;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #ff0066;
+}
+
+/* Contenedor principal del formulario de contacto */
+.contact-form {
+    /* Definir el ancho del formulario como el 40% de la pantalla */
+    width: 50%;
+    /* Espaciado superior/inferior para centrarlo visualmente */
+    margin: 100px auto;
+    /* Fondo gris oscuro para el formulario */
+    background-color: #444;
+    /* Relleno interno para separar el contenido de los bordes */
+    padding: 20px;
+    /* Bordes redondeados */
+    border-radius: 10%;
+    /* Sombra para darle profundidad al contenedor */
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.534);
+}
+
+/* Estilos para el título del formulario */
+.contact-form h2 {
+    /* Tamaño de la fuente para que destaque */
+    font-size: 50px;
+    /* Color rosa fuerte para mantener el estilo gamer */
+    color: #ff0077;
+    /* Espaciado inferior para separarlo de los demás elementos */
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+/* Estilos de los campos de entrada de texto y textarea */
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    /* Definir el ancho de los inputs como el 100% del contenedor */
+    width: 90%;
+    /* Relleno interno para mayor legibilidad */
+    padding: 10px;
+    /* Espaciado inferior para separar los campos entre sí */
+    margin-bottom: 30px;
+    /* Bordes con color rosa fuerte */
+    border: 2px solid #ff0077;
+    /* Bordes redondeados */
+    border-radius: 5px;
+    /* Fondo oscuro para mantener la coherencia de diseño */
+    background-color: #222;
+    /* Color de texto en blanco */
+    color: #fff;
+    /* Mantener la fuente retro del formulario */
+    font-family: 'Press Start 2P', cursive;
+}
+
+/* Estilos para los placeholders dentro de los campos */
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    /* Color gris para los textos de ayuda dentro de los campos */
+    color: #888;
+}
+
+/* Estilos del botón de envío */
+.contact-form button {
+    /* Fondo rosa fuerte para destacar el botón */
+    background-color: #ff0077;
+    /* Color blanco para el texto */
+    color: #fff;
+    /* Relleno interno para darle tamaño al botón */
+    padding: 10px 20px;
+    /* Sin bordes externos */
+    border: none;
+    /* Bordes ligeramente redondeados */
+    border-radius: 10px;
+    /* Cursor de mano para indicar que es un botón clicable */
+    cursor: pointer;
+    /* Tamaño del texto */
+    font-size: 10px;
+    /* Texto en mayúsculas para hacerlo más llamativo */
+    text-transform: uppercase;
+    /* Fuente retro/gamer */
+    font-family: 'Press Start 2P', cursive;
+    /* Transición suave en los cambios de color (hover) */
+    transition: background-color 0.3s;
+}
+
+/* Efecto hover (cuando el mouse pasa por encima del botón) */
+.contact-form button:hover {
+    /* Cambio de color de fondo a un rosa más claro para el hover */
+    background-color: #e26094;
+}
+
+/* Estilos responsivos para pantallas pequeñas */
+@media (max-width: 768px) {
+    /* Hacer el formulario más pequeño en pantallas pequeñas */
+    .contact-form {
+        width: 80%;
+    }
+}

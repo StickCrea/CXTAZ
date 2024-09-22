@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos</title>
+    <!-- Enlace a la hoja de estilos CSS externa -->
+    <link rel="stylesheet" href="contactanos.css">
+    <!-- Fuente especial para darle un estilo gamer -->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+
+      <!-- Navbar -->
+    <header>
+        <div class="logo">
+            <h1>CXTAZ ZONE</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>  
+            </ul>
+        </nav>
+    </header>
+    <!-- Contenedor del formulario -->
+    <div class="contact-form">
+        <h2>Contáctanos</h2>
+        <!-- Formulario con inputs y textarea para los datos -->
+        <form action="#" method="POST">
+            <!-- Campo para el nombre del usuario -->
+            <label for="name"></label>
+            <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+
+            <!-- Campo para el correo electrónico del usuario -->
+            <label for="email"></label>
+            <input type="email" id="email" name="email" placeholder="Tu correo" required>
+
+            <!-- Campo de mensaje -->
+            <label for="message">:</label>
+            <textarea id="message" name="message" rows="4" placeholder="Tu mensaje..." required></textarea>
+
+            <!-- Botón para enviar el formulario -->
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>

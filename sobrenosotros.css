@@ -40,7 +40,7 @@ nav ul li a:hover {
 .about-section {
     width: 60%;
     margin: 100px auto;
-    background-color: #120303;
+    background-color: #1a1919;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.2);
@@ -70,7 +70,7 @@ nav ul li a:hover {
 }
 
 /* Responsivo para pantallas más pequeñas */
-@media (max-width: 768px) {
+@media (max-width: 868px) {
     .about-section {
         width: 90%;
     }
